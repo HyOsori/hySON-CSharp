@@ -2,90 +2,90 @@
 
 namespace hySON
 {
-    [TestFixtureAttribute]
+    [TestFixture]
     class HySONTest
     {
-        [TestAttribute]
+        [Test]
         public void testParseEmptyStringArray()
         {
 
         }
 
-        [TestAttribute]
+        [Test]
         public void testParseStringArray()
         {
 
         }
 
-        [TestAttribute]
+        [Test]
         public void testParseWithConstructor()
         {
 
         }
 
-        [TestAttribute]
+        [Test]
         public void testParseEmptyBooleanArray()
         {
 
         }
 
-        [TestAttribute]
+        [Test]
         public void testParseBooleanArray()
         {
 
         }
 
-        [TestAttribute]
+        [Test]
         public void testParseEmptyIntArray()
         {
 
         }
 
-        [TestAttribute]
+        [Test]
         public void testParseIntArray()
         {
 
         }
 
-        [TestAttribute]
+        [Test]
         public void testParseIntWithConstructor()
         {
 
         }
 
-        [TestAttribute]
+        [Test]
         public void testParseObject()
         {
 
         }
 
-        [TestAttribute]
+        [Test]
         public void testParseObjectWithKey()
         {
 
 
         }
-        [TestAttribute]
+        [Test]
         public void testParseObjectInObject()
         {
 
         }
-        [TestAttribute]
+        [Test]
         public void testParseObjectArray()
         {
 
         }
-        [TestAttribute]
+        [Test]
         public void testParseArrayListInObject()
         {
 
         }
-        [TestAttribute]
+        [Test]
         public void testParseMultiArrayListInObject()
         {
 
         }
-        [TestAttribute]
+        [Test]
         public void testParseMultMemberInObject()
         {
 
