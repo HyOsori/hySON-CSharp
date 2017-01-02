@@ -8,7 +8,7 @@ namespace HySON
 {
     class Test6Class
     {
-        //@Member(Test3Class.class)
+        [Member(typeof(Test3Class))]
         public List<Test3Class> member1;
     }
 }

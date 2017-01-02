@@ -10,10 +10,10 @@ namespace HySON
     {
         public int a;
         public String b;
-        //@Member(Integer.class)
-        public List<Integer> c;
+        [Member(typeof(int))]
+        public List<int> c;
         public int[] d;
-        //@Member(Test1Class.class)
+        [Member(typeof(Test1Class))]
         public List<Test1Class> temps;
     }
 }
