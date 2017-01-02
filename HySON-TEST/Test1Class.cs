@@ -8,5 +8,6 @@ namespace HySON
 {
     class Test1Class
     {
+        public int value;
     }
 }
