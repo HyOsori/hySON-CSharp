@@ -38,6 +38,15 @@ namespace HySON
             return results;
         }
 
+        /** parse Custom Object **/
+        public static T parse<T>(String jsonString, Type c)
+        {
+            T obj = default(T);
+
+            //parse
+
+            return obj;
+        }
 
     }
 }
